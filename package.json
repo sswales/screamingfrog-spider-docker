@@ -1,0 +1,16 @@
+{
+  "name": "@sswales/screamingfrog-spider-docker",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Swales Consultancy <info@swalesconsultancy.co.uk>",
+  "scripts": {
+    "build": "docker build -t screamingfrogspider .",
+    "scan": "docker run -v ~/crawls:/home/crawls screamingfrogspider --crawl http://www.swalesconsultancy.co.uk --headless --save-crawl --output-folder /home/crawls --export-tabs 'Internal:All,Response Codes:Server Error (5xx)'",
+    "package": "exit 0",
+    "lint": "exit 0",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3"
+  }
+}
