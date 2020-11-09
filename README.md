@@ -1,6 +1,6 @@
 # ScreamingFrog Spider Docker
 
-ScreamingFrog Spider 13.2 - Dockerfile Image
+Screaming Frog Spider 13.2 - Dockerfile Image
 
 ## Setup
 1. Install deps using `yarn install`.
