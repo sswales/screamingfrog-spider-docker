@@ -1,3 +1,7 @@
+![version](https://img.shields.io/docker/v/shaunswales/screamingfrogspider)
+![size](https://img.shields.io/docker/image-size/shaunswales/screamingfrogspider)
+![pulls](https://img.shields.io/docker/pulls/shaunswales/screamingfrogspider)
+
 # ScreamingFrog Spider Docker
 
 Screaming Frog Spider 13.2 - Dockerfile Image
